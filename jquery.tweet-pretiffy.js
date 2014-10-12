@@ -37,8 +37,8 @@
 		return this.each(function(){
 
             var $text = $(this).text();            
-            $(this).html($text.parseURL(settings.urlTemplate).parseHashtag(settings.hashtagTemplate).parseUsername(settings.usernameTemplate));
-        });
+                $(this).html($text.parseURL(settings.urlTemplate).parseHashtag(settings.hashtagTemplate).parseUsername(settings.usernameTemplate));
+            });
 	};
 
 	/**
